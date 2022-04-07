@@ -1,0 +1,32 @@
+.fv-help-block {
+    color: #F1416C;
+}
+label.form-check span {
+    white-space: nowrap;
+    cursor: pointer;
+    min-width: 82px;
+    display: block;
+}
+.form-control.form-control-solid {
+    background-color: #eef1f3;
+    border-color: #eef1f3;
+}
+.form-select.form-select-solid {
+    background-color: #eef1f3;
+    border-color: #eef1f3;
+}
+.card .card-header {
+    border-bottom: 1px solid #EFF2F5 !important;
+}
+.data-table-extensions > .data-table-extensions-action > button.print:hover::after {
+    content: 'Print';
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+}
+.data-table-extensions > .data-table-extensions-action > button.download:hover::after {
+    content: 'Export';
+    position: absolute;
+    z-index: 2;
+    margin-top: 20px;
+}
